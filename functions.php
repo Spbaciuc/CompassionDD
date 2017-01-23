@@ -19,7 +19,7 @@ function register_required_plugins() {
 			'required' => false,
 		),
 	);
-	tgmpa( $plugins, $config );
+	tgmpa( $plugins );
 };
 // Add your customization here
 
