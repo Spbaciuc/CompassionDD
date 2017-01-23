@@ -368,7 +368,6 @@ add_action('wp_enqueue_scripts', 'dd_styles'); // Add Theme Stylesheet
 add_action('init', 'register_dd_menu'); // Add MarketDD Menu
 //add_action('init', 'create_post_type_dd'); // Add our MarketDD Custom Post Type
 add_action('widgets_init', 'my_remove_recent_comments_style'); // Remove inline Recent Comment Styles from wp_head()
-add_action('init', 'ddwp_pagination'); // Add our HTML5 Pagination
 
 // Remove Actions
 remove_action('wp_head', 'feed_links_extra', 3); // Display the links to the extra feeds such as category feeds
