@@ -765,17 +765,17 @@ code {
 }
 .home-img {
     position: relative;
-    left: 0;
+    top: 0;
     -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
-    animation: mymove 15s infinite;
+    animation: mymove 5s infinite;
 }
 
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
-    50% {left: 900px;}
+    50% {top: 50px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
-    50% {left: 900px;}
+    50% {top: 50px;}
 }
