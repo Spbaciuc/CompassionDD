@@ -768,6 +768,7 @@ code {
 /*animation element*/
 
 .animation-element {
+
   position: relative;
   margin: 0% 1.33 2.66% 1.33%;
   float: left;
@@ -815,4 +816,15 @@ code {
   -o-transform: translate(0px, 0px);
   -ms-transform: translate(0px, 0px);
   transform: translate3d(0px, 0px, 0px);
+}
+/*clearfixes*/
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
 }
