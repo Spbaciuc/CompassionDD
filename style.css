@@ -768,7 +768,7 @@ code {
 /*animation element*/
 
 .animation-element {
-
+  max-width: 300px;
   position: relative;
   margin: 0% 1.33 2.66% 1.33%;
   float: left;
