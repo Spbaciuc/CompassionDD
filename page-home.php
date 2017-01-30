@@ -34,7 +34,7 @@ get_header(); ?>
 				<div class="col-sm-4 col-xs-13">
 					<div class="animation-element bounce-up cf">
 					<?php if($data['sectionone_img']){ ?>
-						<img class="home-img" src="<?php echo $data['sectionone_img']; ?>" />
+						<img class="home-img subject" src="<?php echo $data['sectionone_img']; ?>" />
 					<?php };?>
 					</div>
 				</div>
