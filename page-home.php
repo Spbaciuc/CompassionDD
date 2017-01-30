@@ -32,9 +32,11 @@ get_header(); ?>
 		<div class="wrapper">
 			<div class="row">
 				<div class="col-sm-4 col-xs-13">
+					<div class="animation-element bounce-up cf">
 					<?php if($data['sectionone_img']){ ?>
 						<img class="home-img" src="<?php echo $data['sectionone_img']; ?>" />
 					<?php };?>
+					</div>
 				</div>
 				<div class="col-sm-8 col-xs-13">
 					<h1>
