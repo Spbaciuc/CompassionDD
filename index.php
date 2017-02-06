@@ -31,13 +31,9 @@
 				<div class="col-sm-4 col-xs-13">
 				
 						<?php if($data['sectionone_img']){ ?>
-<<<<<<< HEAD
 						<div class="animation-element bounce-up cf">
-							<img class="home-img" src="<?php echo $data['sectionone_img']; ?>" />
-						</div>	
-=======
 							<img class="home-img subject" src="<?php echo $data['sectionone_img']; ?>" />
->>>>>>> origin/master
+						</div>	
 						<?php };?>
 				
 				</div>
