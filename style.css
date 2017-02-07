@@ -776,7 +776,7 @@ code {
 /*3 grid layout*/
 
 .animation-element:nth-of-type(3n-2) {
-  width: 31.5%;
+	
   margin: 0% 1.375% 2.75% 0%;
   clear: left;
 }
